@@ -47,3 +47,33 @@ a{
     display: none;
     text-align: center;
 }
+.tab{
+    margin-top: 40px;
+    text-align: center;
+}
+.racoons{
+    margin-top: 40px;
+}
+.racoons img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.triangle {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+	width: 0;
+	height: 0;
+	border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+	border-bottom: 400px solid #555;
+    animation: color 10s infinite;
+}
+@keyframes color{
+    0% {border-bottom-color: aqua;}
+    25% {border-bottom-color: blue;}
+    50% {border-bottom-color: purple;}
+    75% {border-bottom-color: yellow;}
+    100% {border-bottom-color: aqua;}
+}
