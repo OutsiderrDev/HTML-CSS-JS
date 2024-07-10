@@ -28,7 +28,7 @@ header{
 ul{
     margin-top: 15px;
 }
-li{
+.li-a{
     display: inline;
     padding: 20px;
     font-size: large;
@@ -37,7 +37,7 @@ li{
     border-radius: 10%;
     text-align: center;
 }
-li:hover{
+.li-a:hover{
     background-color: rgb(97, 94, 94);
 }
 a{
